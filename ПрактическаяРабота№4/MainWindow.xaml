@@ -19,16 +19,16 @@
                 <TextBlock Text="Вариант №5. Выполнил Волков А.П." FontSize="20"/>
             </StackPanel>
         </StackPanel>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <StackPanel Orientation="Vertical">
+        <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
                 <TextBlock Text="Ввдеите значение x" Width="120" Margin="10"/>
                 <TextBlock Text="Ввдеите значение i" Width="120" Margin="10"/>
             </StackPanel>
-            <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
                 <TextBox Name="InputX" Width="100" Margin="10"/>
                 <TextBox Name="InputI"  Width="100" Margin="10"/>
             </StackPanel>
-            <StackPanel>
+            <StackPanel VerticalAlignment="C">
                 <RadioButton Name="RadBtnSin" Content="Sin(x)" Margin="10"/>
                 <RadioButton Name="RadBtnCos" Content="Cos(x)" Margin="10"/>
                 <RadioButton Name="RadBtnExp" Content="Exp(x)" Margin="10"/>
