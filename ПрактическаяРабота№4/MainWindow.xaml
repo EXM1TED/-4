@@ -19,7 +19,8 @@
                 <TextBlock Text="Вариант №5. Выполнил Волков А.П." FontSize="20"/>
             </StackPanel>
         </StackPanel>
-        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" 
+                    HorizontalAlignment="Center">
             <StackPanel Orientation="Vertical" VerticalAlignment="Center">
                 <TextBlock Text="Ввдеите значение x" Width="120" Margin="10"/>
                 <TextBlock Text="Ввдеите значение i" Width="120" Margin="10"/>
@@ -41,8 +42,10 @@
             </StackPanel>
         </StackPanel>
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Name="BtnPerform" Content="Выполнить" Height="50" Width="100" Margin="10 0" Click="BtnPerform_Click"/>
-            <Button Name="BtnClear" Content="Очистить" Height="50" Width="100" Margin="10 0" Click="BtnClear_Click"/>
+            <Button Name="BtnPerform" Content="Выполнить" Height="50" Width="100" Margin="10 0" 
+                    Click="BtnPerform_Click"/>
+            <Button Name="BtnClear" Content="Очистить" Height="50" Width="100" Margin="10 0" 
+                    Click="BtnClear_Click"/>
         </StackPanel>
     </Grid>
 </Window>
